@@ -1,6 +1,9 @@
 # 小白搭建sk5
 
-Centos系统请使用下面命令
+提示:仅用于学习娱乐,切勿用于非法用途.
+
+Centos系统通过测试
+
 ```
 sh -c "$(wget https://github.com/programfault/sk5/releases/download/v1/centos.sh -O -)"
 ```
