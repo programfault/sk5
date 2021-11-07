@@ -17,7 +17,6 @@ ports:
   - 12324
   
 # 单IP多端口参数如下
-# 单IP单端口参考如下
 username: usernametest1
 password: passwordtest1
 ips:
