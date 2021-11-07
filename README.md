@@ -6,6 +6,7 @@ sh -c "$(wget https://github.com/programfault/sk5/releases/download/v1/centos.sh
 ```
 
 配置文件路径：/root/sk5.yaml
+
 Yaml格式注意空格，
 ```
 # 单IP单端口参考如下
@@ -24,4 +25,18 @@ ports:
   - 12324
   - 12325
   - 12326
+```
+
+安装完后
+
+启动命令
+
+```
+sk5 start -d
+```
+
+停止命令
+
+```
+sk5 stop
 ```
