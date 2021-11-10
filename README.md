@@ -5,7 +5,7 @@
 Centos系统通过测试
 
 ```
-sh -c "$(wget https://github.com/programfault/sk5/releases/download/v1/centos.sh -O -)"
+sudo sh -c "$(wget https://github.com/programfault/sk5/releases/download/v1/centos.sh -O -)"
 ```
 
 配置文件路径：$home/sk5.yaml
