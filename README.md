@@ -2,9 +2,10 @@
 
 提示:仅用于学习娱乐,切勿用于非法用途.
 
-Centos系统通过测试
+按照下面顺序执行
 
 ```
+sudo su
 sudo sh -c "$(wget https://github.com/programfault/sk5/releases/download/v1/centos.sh -O -)"
 ```
 
