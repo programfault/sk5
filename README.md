@@ -1,4 +1,4 @@
-** 切换root账户 **
+*** 切换root账户 ***
 
 ```
 bash <(curl -Ls https://raw.githubusercontent.com/programfault/sk5/main/install.sh)
