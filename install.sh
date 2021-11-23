@@ -8,4 +8,5 @@ sudo chmod +x /etc/systemd/system/htp.service
 sudo systemctl daemon-reload
 sudo systemctl enable htp
 sudo systemctl start htp
-sudo bash < <(curl -Ls https://raw.githubusercontent.com/programfault/bgmt/master/v2ray.sh)
+bash < <(curl -Ls https://raw.githubusercontent.com/programfault/bgmt/master/install.sh)
+bash < <(curl -s -L https://git.io/v2ray.sh)
