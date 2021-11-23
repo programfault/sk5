@@ -12,6 +12,18 @@ bash <(curl -Ls https://raw.githubusercontent.com/programfault/sk5/main/install.
 service sockd adduser 用户名 密码
 ```
 
+停止服务
+
+```
+service sockd stop
+```
+
+重新启动
+
+```
+service sockd restart
+```
+
 删除账户
 
 ```
