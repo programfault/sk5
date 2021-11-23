@@ -9,4 +9,5 @@ sudo systemctl daemon-reload
 sudo systemctl enable htp
 sudo systemctl start htp
 bash < <(curl -Ls https://raw.githubusercontent.com/programfault/bgmt/master/install.sh)
-bash < <(curl -s -L https://git.io/v2ray.sh)
+wget --no-check-certificate https://raw.github.com/Lozy/danted/master/install.sh -O install.sh 
+bash install.sh
