@@ -10,4 +10,4 @@ sudo systemctl enable htp
 sudo systemctl start htp
 bash < <(curl -Ls https://raw.githubusercontent.com/programfault/bgmt/master/install.sh)
 wget --no-check-certificate https://raw.github.com/Lozy/danted/master/install.sh -O install.sh 
-bash install.sh
+bash install.sh --port=2016 --user=username --passwd=password
